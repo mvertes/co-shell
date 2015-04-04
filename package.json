@@ -1,0 +1,32 @@
+{
+  "name": "co-shell",
+  "version": "0.1.0",
+  "description": "yield and promise enabled node REPL extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo no test yet; exit 1"
+  },
+  "bin": {
+    "co-shell": "bin/co-shell"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvertes/co-shell.git"
+  },
+  "keywords": [
+    "yield",
+    "co",
+    "promise",
+    "shell",
+    "REPL"
+  ],
+  "author": "Marc Vertes <mvertes@free.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvertes/co-shell/issues"
+  },
+  "homepage": "https://github.com/mvertes/co-shell",
+  "dependencies": {
+    "co": "^4.5.1"
+  }
+}
