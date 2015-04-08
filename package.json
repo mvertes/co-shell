@@ -4,7 +4,7 @@
   "description": "yield and promise enabled node REPL extension",
   "main": "index.js",
   "scripts": {
-    "test": "echo no test yet; exit 1"
+    "test": "test/test-shell.js"
   },
   "bin": {
     "co-shell": "bin/co-shell"
@@ -26,6 +26,9 @@
     "url": "https://github.com/mvertes/co-shell/issues"
   },
   "homepage": "https://github.com/mvertes/co-shell",
+  "devDependencies": {
+    "thenify": "^3.1.0"
+  },
   "dependencies": {
     "co": "^4.5.1"
   }
