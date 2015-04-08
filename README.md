@@ -1,5 +1,7 @@
 # co-shell
 
+[![Build Status](https://travis-ci.org/mvertes/co-shell.svg?branch=master)](https://travis-ci.org/mvertes/co-shell)
+
 This is a simple node.js [REPL](https://nodejs.org/api/repl.html)
 extension to support interactive expressions containing `yield`
 statements (using [co](https://github.com/tj/co)) and ECMA-6 promises.
