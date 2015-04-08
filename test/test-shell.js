@@ -2,7 +2,7 @@
 
 var spawn = require('child_process').spawn;
 
-var copro = spawn('./bin/co-shell');
+var copro = spawn('node', ['--harmony', 'bin/co-shell']);
 var prompt = "co-shell> ";
 var script = [
 	['a = 1', '1'],
