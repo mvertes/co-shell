@@ -2,12 +2,10 @@
 
 [![Build Status](https://travis-ci.org/mvertes/co-shell.svg?branch=master)](https://travis-ci.org/mvertes/co-shell)
 
-This is a simple node.js [REPL](https://nodejs.org/api/repl.html)
-extension to support interactive expressions containing `yield`
-statements (using [co](https://github.com/tj/co)) and ECMA-6 promises.
+Extend node.js core [REPL](https://nodejs.org/api/repl.html) module
+to support promises, [co](https://github.com/tj/co) and `yield` statements.
 
-In other words, it allows to run asynchronous javascript commands
-in a natural interactive synchronous way.
+Both executable and module for use in programs are provided.
 
 ## Install
 ```
@@ -21,7 +19,8 @@ Install some promized stuff, for example [mz](https://github.com/normalize/mz):
 $ npm install mz
 ```
 
-Then run `co-shell`
+Then run the provided `bin/co-shell` executable.
+Adjust first line `#!/usr/local/bin/node --harmony` if necessary.
 
 ```js
 $ co-shell
