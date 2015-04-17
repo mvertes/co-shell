@@ -24,8 +24,8 @@ function corepl(cli) {
   return cli;
 }
 
-module.exports = function(opt) {
+module.exports = function coshell(opt) {
   var s = corepl(repl.start(opt || {}));
   s.context.co = co;
   return s;
-}
+};
